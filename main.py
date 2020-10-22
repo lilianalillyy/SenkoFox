@@ -5,7 +5,10 @@ import shutil
 # Specify your Firefox Install Path
 # /usr/lib/firefox is OS-specific (in my case Linux),
 # however the rest should be the same regardless of a system.
-# Windows users however use "\" instead of "/"!
+# Default install path for Windows: "C:\Program Files\Mozilla Firefox\browser\VisualElements",
+# replace firefoxIconsPath with the correct file path,
+# and, please double check before running.
+# Windows users however use "\" instead of "/"! 
 firefoxIconsPath = "/usr/lib/firefox/browser/chrome/icons/default"
 
 # Path to the Senko icon. By default in this folder
